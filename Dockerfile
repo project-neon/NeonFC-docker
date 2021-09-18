@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.7
 WORKDIR /
 RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/project-neon/NeonFC.git
